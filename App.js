@@ -15,7 +15,7 @@ export default function App() {
         const res = await axios({
           method: 'GET',
           url: 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest',
-          headers: {'X-CMC_PRO_API_KEY': 'c83acf2c-208f-44e9-8621-ba1f66017ae4'}
+          headers: {'X-CMC_PRO_API_KEY': '-------------key----------------'}
       });
       setBtc(`₹ ${(parseInt(res.data.data[0].quote.USD.price))}`);
 	  setEth(`₹ ${(parseInt(res.data.data[1].quote.USD.price))}`);
