@@ -8,7 +8,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#EC255A"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -23,7 +23,9 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.alkemy.alkemy",
+      "versionCode": 1.0
     },
     "web": {
       "favicon": "./assets/favicon.png"
