@@ -34,7 +34,7 @@ export default function App() {
 	  }
 },[]);
   return (
-	<NavigationContainer>
+	<>
 	  <SafeAreaView>
 	  <View style={styles.header}>
 	  	<Text style={styles.headerText}>&#9889;Alkemy</Text>
@@ -60,7 +60,7 @@ export default function App() {
 	</View>
 	<StatusBar translucent={false} backgroundColor='#161853'/>
 	</SafeAreaView>
-	</NavigationContainer>
+	</>
   );
 }
 
