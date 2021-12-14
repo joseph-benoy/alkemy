@@ -1,12 +1,9 @@
-import 'react-native-gesture-handler';
 
 
 import { StyleSheet, Text, View,StatusBar } from 'react-native';
 import React from "react";
 import axios from 'axios';
 import { SafeAreaView } from 'react-navigation';
-import changeNavigationBarColor from 'react-native-navigation-bar-color';
-import { NavigationContainer } from '@react-navigation/native';
 
 export default function App() {
   const [btc,setBtc] = React.useState("Test");
